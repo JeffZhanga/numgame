@@ -34,7 +34,7 @@ GuessingGame
 ├── pom.xml  # Maven 构建文件  
 ├── target/  # 编译后文件目录  
 ├── README.md  # 项目说明文档  
-
+</pre>
 
 ## 数据库设计
 - **Database**：guessinggame
