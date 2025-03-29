@@ -38,13 +38,16 @@ GuessingGame
 
 ## 数据库设计
 - **Database**：guessinggame
+<pre>
 +-------------------------+
 | Tables_in_guessing_game |
 +-------------------------+
 | guessing_records        |
 | users                   |
 +-------------------------+
+</pre>
 - **table**：guessing_records
+<pre>
 +--------------+------------+------+-----+---------+----------------+
 | Field        | Type       | Null | Key | Default | Extra          |
 +--------------+------------+------+-----+---------+----------------+
@@ -54,7 +57,9 @@ GuessingGame
 | guess_time   | timestamp  | YES  |     | NULL    |                |
 | success      | tinyint(1) | YES  |     | NULL    |                |
 +--------------+------------+------+-----+---------+----------------+
+</pre>
 - **table**：users
+  <pre>
 +-------------+--------------+------+-----+---------+----------------+
 | Field       | Type         | Null | Key | Default | Extra          |
 +-------------+--------------+------+-----+---------+----------------+
@@ -65,3 +70,4 @@ GuessingGame
 | login_count | int          | YES  |     | 0       |                |
 | last_login  | timestamp    | YES  |     | NULL    |                |
 +-------------+--------------+------+-----+---------+----------------+
+</pre>
