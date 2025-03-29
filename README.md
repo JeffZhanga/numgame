@@ -18,21 +18,22 @@
 - **依赖管理**：JDBC
 
 ## 项目结构
-GuessingGame
-├── src
-│   └── main
-│       └── java
-│           └── com
-│               └── example
-│                   ├── DBUtil.java         # 数据库连接工具类
-│                   ├── GameApp.java        # 游戏入口类
-│                   ├── GameGUI.java        # 游戏界面类
-│                   ├── LoginGUI.java       # 登录界面类
-│                   ├── UserService.java    # 用户服务类（包含登录、注册功能）
-│                   ├── MD5Util.java        # MD5加密工具类
-├── pom.xml                # Maven 构建文件
-├── target/                # 编译后文件目录
-└── README.md              # 项目说明文档
+GuessingGame  
+├── src  
+│   └── main  
+│       └── java  
+│           └── com  
+│               └── example  
+│                   ├── DBUtil.java   # 数据库连接工具类  
+│                   ├── GameApp.java   # 游戏入口类  
+│                   ├── GameGUI.java   # 游戏界面类  
+│                   ├── LoginGUI.java  # 登录界面类  
+│                   ├── UserService.java  # 用户服务类（包含登录、注册功能）  
+│                   └── MD5Util.java   # MD5加密工具类  
+├── pom.xml  # Maven 构建文件  
+├── target/  # 编译后文件目录  
+├── README.md  # 项目说明文档  
+
 
 ## 数据库设计
 - **Database**：guessinggame
